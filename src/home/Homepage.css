@@ -1,0 +1,38 @@
+.homepage-container {
+    margin-top:20%;
+}
+
+.homepage-login-signup {
+    margin-top:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homepage-login-signup h1 {
+    text-align: center;
+}
+
+.homepage-login-signup p {
+    text-align: center;
+    font-size: 1em;
+}
+.homepage-buttons-div a {  
+    padding:0.85em 1.2em;
+    background-color: rgb(55, 55, 216);
+    margin:1em;
+    font-weight:300;
+    height: 3em;
+    width: 130px;
+    box-shadow: none;
+    color:white;
+    border-radius: 5%;
+    border:none;
+    text-align: center;   
+}
+
+.homepage-buttons-div{   
+    display: flex;
+    margin: auto;
+ 
+}

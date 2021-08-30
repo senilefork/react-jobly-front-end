@@ -1,0 +1,54 @@
+a{
+      text-decoration: none;
+      color:whitesmoke;
+  }
+  
+  nav {
+      font-size: 1.5rem;
+      background-color: #646262;
+      padding: 10px;
+  }
+  
+  /* Flex Container */
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+  }
+  
+  nav ul li {
+      cursor: pointer;
+      padding: 1rem;
+      text-align: center;
+  }
+  
+  nav ul li :hover {
+      background-color: #555;
+      color: white;
+  }
+
+  .login-signup{
+      margin-left:auto;
+      display: flex;
+  }
+
+  .logout{
+      margin-left:auto;
+      display:flex;
+  }
+  
+  /* Responsive Nav Bar */
+  @media all and (max-width: 600px) {
+      .login-signup, .logout{
+          flex-direction: column;
+          margin:auto;
+      }
+
+      nav ul {
+          flex-direction: column;
+      }
+      nav ul li {
+          text-align: center;
+      }
+  }

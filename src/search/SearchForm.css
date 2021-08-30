@@ -1,0 +1,42 @@
+.search-form{
+    background-color: white;
+    margin:auto;
+    box-shadow:none;
+    width:70%;
+    display: flex;
+}
+
+input{
+    height: 3em;
+    width:80%;
+    padding: 5px;
+}
+
+.search-button{
+    display: inline-block;
+    padding:0.35em 1.2em;
+    /* border:0.15em solid #4af358; */
+    background-color: rgb(55, 55, 216);
+    margin:1em;
+    font-weight:300;
+    height: 3em;
+    width: 130px;
+    box-shadow: none;
+    color:white;
+    border-radius: 5%;
+    border:none;
+}
+
+@media all and (max-width: 600px) {
+    .search-form{
+        flex-direction: column;
+    }
+
+    .search-button{
+        margin: auto;
+    }
+
+    input{
+        width: 100%
+    }
+}
